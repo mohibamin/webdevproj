@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+width: 100%; min-width: 1000px;
+height: 100%; min-height: 1000px;
+position: absolute;
+overflow: hidden;
+background-image: url(oaktree.jpg);
+background-size: 100% 100%;
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 150px;
+}
+.nav-links{
+flex: 1;
+ text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    transform: translate(-10%);
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #cccccc;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+.feature img{
+    width: 200px;
+}
+.feature{
+    position: absolute;
+    display: inline;
+    color: #178cbb
+}
+.feature div{
+    margin-left: -1px;
+}
+.feature div p{
+    margin-top: 8px
+}
+.one{
+    top: 350px;
+    right: 50px;
+    text-align: center;
+}
+.two{
+    top: 100px;
+    left: 350px;
+    text-align: center;
+    transform: rotate(-90deg)
+    
+}
+.three{
+    top: 490px;
+    left: 70px;
+    text-align: center;
+    transform: rotate(-180deg)
+    
+}
+.four{
+    top: 750px;
+    right: 340px;
+    text-align: center;
+    transform: rotate(-270deg)
+    
+}
+.five{
+    bottom: 210px;
+    right: 140px;
+    text-align: center;
+    transform: rotate(-315deg)
+    
+}
+.six{
+    top: 180px;
+    right: 200px;
+    text-align: center;
+    transform: rotate(-45deg)
+    
+}
+.seven{
+    top: 220px;
+    left: 130px;
+    text-align: center;
+    transform: rotate(-135deg)
+    
+}
+.eight{
+    top: 700px;
+    left: 180px;
+    text-align: center;
+    transform: rotate(-225deg)
+    
+}
+.endangered{
+    width: 350px;
+    position: absolute;
+    top: 42%;
+    left: 33%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.speciess{
+    width: 200px;
+    position: absolute;
+    top: 48%;
+    left: 40%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.controls{
+    position: absolute;
+    right: 25px;
+    top: 500px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 20px 0;
+    color: #ffffff;
+}
+#upBtn{
+    width: 20px;
+    cursor: pointer;
+}
+#downBtn{
+    width: 20px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.slogan{
+    width: 500px;
+    position: relative;
+    top: 40px;
+    left: 900px
+}
+.speciesendangered{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    transform: translate(-10%);
+}
+.rectangle {
+    width: 1410px;
+    height: 800px;
+    position: absolute;
+    background: #cccccc;
+}
+.species img{
+    width: 200px;
+}
+.species{
+    position: absolute;
+    color: #000000;
+}
+.onez{
+    position: relative;
+    top: 5px;
+    left: 650px;
+    text-align: left
+}
+.twoz{
+    position: relative;
+    top: 5px;
+    left: 650px;
+    text-align: left
+}
+.threez{
+    position: relative;
+    top: 5px;
+    left: 650px;
+    text-align: left
+}
+
+
